@@ -10,7 +10,7 @@ function ContactCard({ name, link, about, role, profilePicture }) {
                     <h2 className="text-2xl font-bold text-black text-left">{name}</h2>
                 </div>
                 <a href={link} target="_blank" rel="noopener noreferrer" className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors duration-300 ml-4 text-center">
-                    View Discord Profile
+                    <b>View Discord Profile</b>
                 </a>
             </div>
 
