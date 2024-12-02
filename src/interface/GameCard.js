@@ -7,7 +7,7 @@ function GameCard({ title, link, description, features, working }) {
             <div className="flex items-center justify-between mb-4">
                 <h2 className="text-2xl font-bold text-black">{title}</h2>
                 <a href={link} target="_blank" rel="noopener noreferrer" className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors duration-300 ml-4">
-                    View Game
+                    <b>View Game</b>
                 </a>
             </div>
 
