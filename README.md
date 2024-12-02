@@ -1,5 +1,4 @@
-# 🌌 Starry's Webpage  
-**The official website for Starry — the ultimate free & paid Roblox script!**
+# 🌌 Starry's Webpage
 
 ---
 
@@ -20,7 +19,12 @@ cd my-project
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init
 ```
-### 3️⃣ Replace the Default Files  
+### 3️⃣ Install other dependencies
+```
+npm install lucide-react
+npm install react-router-dom
+```
+### 4️⃣ Replace the Default Files  
 - Delete everything in your project folder **except** the **`node_modules`** directory.  
 - Clone the Starry files into your project folder.  
 
