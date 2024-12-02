@@ -23,7 +23,7 @@ function GameCard({ title, link, description, features, working }) {
 
             <div className="flex justify-between mt-4">
                 <p className="text-gray-800 text-left"><i>& so much more</i></p>
-                <p className={`text-right ${working === 1 ? 'text-green-500' : 'text-red-500'}`}>
+                <p className={`text-right ${working === 1 ? 'text-green-500' : working === 0 ? 'text-red-500' : 'text-yellow-500'}`}>
                     {working === 1 ? 'WORKING' : working === 0 ? 'PATCHED' : 'UNRELEASED'}
                 </p>
             </div>
