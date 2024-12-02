@@ -26,7 +26,7 @@ function Script() {
                 <div className="relative w-1/3">
                     <textarea
                         id="script-textarea"
-                        className="w-full h-16 p-2 mb-5 shadow-lg border border-gray-300 rounded resize-none"
+                        className="w-full h-16 p-2 no-scroll mb-5 shadow-lg border border-gray-300 rounded resize-none"
                         rows="5"
                         readOnly
                         value={`getgenv().ignoreGameCheck = false\nloadstring(game:HttpGet("https://starry.rocks/raw"))()`}
