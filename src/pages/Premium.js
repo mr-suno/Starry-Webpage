@@ -1,12 +1,15 @@
 import React from "react";
 import GameCard from "../interface/GameCard";
+import bagIcon from "../assets/icons/bag.png";
 
 function Premium() {
     return (
         <div className="flex flex-col min-h-screen bg-gray-100">
-            <div className="absolute right-1/4 top-1/4 transform translate-x-1/2 rotate-5 opacity-50 text-9xl">
-                💰
-            </div>
+            <img
+                src={bagIcon}
+                alt="Bag Icon"
+                className="absolute right-1/4 top-1/4 transform translate-x-1/2 rotate-5 opacity-100 w-36 h-36"
+            />
 
             <div className="flex flex-col items-center justify-center flex-grow p-10">
                 <h1 className="text-5xl font-bold mb-4 text-black">Starry <span className="italic bg-gradient-to-r from-green-400 via-green-500 to-green-600 text-transparent bg-clip-text shine">Premium</span></h1>
