@@ -3,6 +3,7 @@ import { Copy } from 'lucide-react';
 import ImageCard from "../interface/ImageCard";
 import puppyImage from "../assets/screenshots/puppy.avif";
 import dogImage from "../assets/screenshots/dog.webp";
+import paperclipIcon from "../assets/icons/paperclip.png";
 
 function Script() {
     const copyToClipboard = () => {
@@ -12,10 +13,12 @@ function Script() {
     };
 
     return (
-        <div className="flex flex-col min-h-screen bg-gray-100 pt-20"> 
-            <div className="absolute right-1/4 top-1/3 transform translate-x-1/2 -translate-y-1/2 rotate-5 opacity-50 text-9xl">
-                📎
-            </div>
+        <div className="flex flex-col min-h-screen bg-gray-100 pt-20">
+            <img
+                src={paperclipIcon}
+                alt="Paperclip Icon"
+                className="absolute right-1/4 top-1/4 transform translate-x-1/2 rotate-5 opacity-100 w-40 h-36"
+            />
 
             <div className="flex flex-col items-center justify-center flex-grow p-2">
                 <h1 className="text-5xl font-bold mb-10 text-black">Use Starry</h1>
