@@ -2,13 +2,16 @@ import React from "react";
 import ContactCard from "../interface/ContactCard";
 import sunoProfilePicture from "../assets/suno.webp";
 import zadeProfilePicture from "../assets/zade.webp";
+import rocketIcon from "../assets/icons/rocket.png";
 
 function Contributors() {
     return (
         <div className="flex flex-col min-h-screen bg-gray-100">
-            <div className="absolute left-1/4 top-1/4 transform -translate-x-1/2 -translate-y-1/2 rotate-5 opacity-50 text-9xl">
-                🚀
-            </div>
+            <img
+                src={rocketIcon}
+                alt="Rocket Icon"
+                className="absolute left-1/4 top-1/4 transform -translate-x-1/2 -translate-y-1/2 rotate-5 opacity-100 w-40 h-32"
+            />
 
             <div className="flex flex-col items-center justify-center flex-grow p-10">
                 <h1 className="text-5xl font-bold mb-4 text-black">Developers</h1>
